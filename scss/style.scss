@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+// Customize theme
+@import 'custom-settings';
+
+body {
+    background: #ffffff;
+}
+
+.bg-services {
+	background: $oubihis-primary;
+}
+
+.service-heros {
+	margin-top: -8rem;
+	padding-bottom: 1rem;
+}
+
+.pt-9 {
+	padding-top: 9rem;
+}
+
+.pb-18 {
+    padding-bottom: 18rem;
+}
