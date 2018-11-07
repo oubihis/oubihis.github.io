@@ -8,4 +8,29 @@ $oubihis-text: #293347;
 $oubihis-base: #4E4E4E;
 $oubihis-body: #696969;
 $oubihis-tag-h1: #5433FF;
-$oubihis-paragraph: #696969
+$oubihis-paragraph: #696969;
+
+
+$font-family-one: 'font-maghreb-one';
+@font-face {
+  font-family: 'font-maghreb-one';
+  src: url('../fonts/font-maghreb-one.ttf');
+}
+
+$font-family-tow: 'font-maghreb-tow';
+@font-face {
+  font-family: 'font-maghreb-tow';
+  src: url('../fonts/font-maghreb-tow.ttf');
+}
+
+$font-family-three: 'font-maghreb-three';
+@font-face {
+  font-family: 'font-maghreb-three';
+  src: url('../fonts/font-maghreb-three.ttf');
+}
+
+$font-family-four: 'font-maghreb-four';
+@font-face {
+  font-family: 'font-maghreb-four';
+  src: url('../fonts/font-maghreb-four.ttf');
+}

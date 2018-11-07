@@ -5,10 +5,19 @@
 
 body {
     background: #ffffff;
+    font-family: $font-family-four;
 }
 
 .bg-services {
 	background: $oubihis-primary;
+}
+
+.bg-cta {
+	padding: 3.5rem 1.25rem;
+margin-top: -9rem;
+background-color: $oubihis-prussian;
+box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2),0 0 0 1px $oubihis-prussian;
+border-radius: 12px;
 }
 
 .service-heros {
@@ -22,4 +31,36 @@ body {
 
 .pb-18 {
     padding-bottom: 18rem;
+}
+
+.mb-9 {
+	margin-bottom: 9rem;
+}
+.border-cta {
+    padding: 5rem 1.5rem 0rem 1.5rem;
+}
+
+footer {
+    padding: 1rem 1.5rem 4rem;
+}
+
+.text-md-left span, a {
+	font-family: $font-family-four;
+	font-size: 17px;
+	font-weight: 600;
+	color: $oubihis-prussian;
+	
+}
+
+.text-md-left button {
+	font-family: $font-family-four;
+	font-size: 18px;
+	font-weight: 500;
+	color: $oubihis-prussian;
+	border-radius: 20px;
+	background-color: white;
+	border-color: $oubihis-prussian;
+	border-width: 2px;
+    border-style: solid;
+	
 }

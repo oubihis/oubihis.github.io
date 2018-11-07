@@ -1,8 +1,32 @@
+@font-face {
+  font-family: 'font-maghreb-one';
+  src: url("../fonts/font-maghreb-one.ttf"); }
+
+@font-face {
+  font-family: 'font-maghreb-tow';
+  src: url("../fonts/font-maghreb-tow.ttf"); }
+
+@font-face {
+  font-family: 'font-maghreb-three';
+  src: url("../fonts/font-maghreb-three.ttf"); }
+
+@font-face {
+  font-family: 'font-maghreb-four';
+  src: url("../fonts/font-maghreb-four.ttf"); }
+
 body {
-  background: #ffffff; }
+  background: #ffffff;
+  font-family: "font-maghreb-four"; }
 
 .bg-services {
   background: #5433FF; }
+
+.bg-cta {
+  padding: 3.5rem 1.25rem;
+  margin-top: -9rem;
+  background-color: #02374D;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #02374D;
+  border-radius: 12px; }
 
 .service-heros {
   margin-top: -8rem;
@@ -13,3 +37,29 @@ body {
 
 .pb-18 {
   padding-bottom: 18rem; }
+
+.mb-9 {
+  margin-bottom: 9rem; }
+
+.border-cta {
+  padding: 5rem 1.5rem 0rem 1.5rem; }
+
+footer {
+  padding: 1rem 1.5rem 4rem; }
+
+.text-md-left span, a {
+  font-family: "font-maghreb-four";
+  font-size: 17px;
+  font-weight: 600;
+  color: #02374D; }
+
+.text-md-left button {
+  font-family: "font-maghreb-four";
+  font-size: 18px;
+  font-weight: 500;
+  color: #02374D;
+  border-radius: 20px;
+  background-color: white;
+  border-color: #02374D;
+  border-width: 2px;
+  border-style: solid; }
