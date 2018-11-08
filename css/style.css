@@ -47,9 +47,14 @@ body {
 footer {
   padding: 1rem 1.5rem 4rem; }
 
-.text-md-left span, a {
+.text-md-left span {
   font-family: "font-maghreb-four";
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #02374D; }
+.text-md-left a {
+  font-family: "font-maghreb-four";
+  font-size: 20px;
   font-weight: 600;
   color: #02374D; }
 
