@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'font-maghreb-one';
-  src: url("../fonts/font-maghreb-one.ttf"); }
+  font-family: 'Maghribi-Assile';
+  src: url("../font/Maghribi-Assile.ttf"); }
 
 @font-face {
-  font-family: 'font-maghreb-tow';
-  src: url("../fonts/font-maghreb-tow.ttf"); }
+  font-family: "arabswell_1";
+  src: url("../font/arabswell_1.ttf"); }
 
 @font-face {
-  font-family: 'font-maghreb-three';
-  src: url("../fonts/font-maghreb-three.ttf"); }
+  font-family: "Samir_Khouaja_Maghribi";
+  src: url("../font/Samir_Khouaja_Maghribi.ttf"); }
 
 @font-face {
-  font-family: 'font-maghreb-four';
-  src: url("../fonts/font-maghreb-four.ttf"); }
+  font-family: "Hacen-Maghreb-Lt";
+  src: url("../font/Hacen-Maghreb-Lt.ttf"); }

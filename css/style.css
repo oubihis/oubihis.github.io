@@ -1,70 +1,227 @@
 @font-face {
-  font-family: 'font-maghreb-one';
-  src: url("../fonts/font-maghreb-one.ttf"); }
+  font-family: 'Maghribi-Assile';
+  src: url("../font/Maghribi-Assile.ttf"); }
 
 @font-face {
-  font-family: 'font-maghreb-tow';
-  src: url("../fonts/font-maghreb-tow.ttf"); }
+  font-family: "arabswell_1";
+  src: url("../font/arabswell_1.ttf"); }
 
 @font-face {
-  font-family: 'font-maghreb-three';
-  src: url("../fonts/font-maghreb-three.ttf"); }
+  font-family: "Samir_Khouaja_Maghribi";
+  src: url("../font/Samir_Khouaja_Maghribi.ttf"); }
 
 @font-face {
-  font-family: 'font-maghreb-four';
-  src: url("../fonts/font-maghreb-four.ttf"); }
+  font-family: "Hacen-Maghreb-Lt";
+  src: url("../font/Hacen-Maghreb-Lt.ttf"); }
+
+a {
+  color: #02374D; }
+
+a:hover {
+  color: #02374D;
+  text-decoration: none; }
 
 body {
   background: #ffffff;
-  font-family: "font-maghreb-four"; }
+  font-family: "Maghribi-Assile"; }
 
 .bg-services {
   background: #5433FF; }
 
-.bg-cta {
-  padding: 3.5rem 1.25rem;
-  margin-top: -9rem;
-  background-color: #02374D;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #02374D;
-  border-radius: 12px; }
+.border-send-me {
+  border-width: 2.083px;
+  border-color: #02374D;
+  border-style: solid;
+  border-radius: 15px;
+  width: 98.834px;
+  height: 32.834px;
+  background-color: white; }
+
+.text-send-me {
+  font-size: 20px;
+  font-family: "Maghribi-Assile";
+  color: #02374D;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #fff; }
+
+.all-languages {
+  color: #02374D; }
+
+.all-languages a {
+  font-size: 20px;
+  font-family: "Maghribi-Assile";
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600; }
+
+.all-languages span {
+  font-size: 18px;
+  font-family: "Maghribi-Assile";
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 100; }
+
+.logo {
+  font-size: 25px;
+  font-family: "arabswell_1";
+  color: #02374d;
+  line-height: 0.84;
+  text-align: right; }
+
+.logo br {
+  line-height: 0; }
+
+.title h1 {
+  font-size: 37px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: #5433FF;
+  font-weight: bold;
+  line-height: 0.568;
+  text-align: center; }
+
+.title p {
+  font-size: 20px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: #293347;
+  font-weight: bold;
+  line-height: 1.05;
+  text-align: center;
+  margin-top: 22px; }
+
+.img-dev {
+  border-width: 8.333px;
+  border-color: #5433ff;
+  border-style: solid;
+  border-radius: 5px;
+  width: 163.334px;
+  height: 125.334px; }
+
+.me {
+  display: block;
+  margin: 2em auto;
+  margin-bottom: 3em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  -webkit-box-shadow: 0px 0px 13px 3px #5433ff;
+  -moz-box-shadow: 0px 0px 13px 3px #5433ff;
+  box-shadow: 0px 0px 13px 3px #5433ff33; }
+
+.social {
+  text-align: center;
+  font-size: 1.8em;
+  color: #555;
+  overflow: hidden; }
+  .social a {
+    color: inherit;
+    text-decoration: none; }
+  .social i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0); }
+    .social i:hover {
+      margin-top: -1px; }
+    .social i#twitter:hover {
+      color: #77DDF6; }
+    .social i#github:hover {
+      color: black; }
+    .social i#linkedin:hover {
+      color: #0177B5; }
+    .social i#code:hover {
+      color: #29A329; }
+    .social i#stack:hover {
+      color: #ED780E; }
+    .social i#plus:hover {
+      color: #D43402; }
+    .social i#mail:hover {
+      color: #F7B401; }
+
+.content-services h2 {
+  font-size: 25px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: white;
+  font-weight: bold;
+  line-height: 0.84;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem; }
+
+.content-services p {
+  font-size: 18px;
+  font-family: "Maghribi-Assile";
+  color: #ffffff;
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center;
+  margin-bottom: 12rem; }
 
 .service-heros {
-  margin-top: -8rem;
+  margin-top: -7rem;
   padding-bottom: 1rem; }
 
-.pt-9 {
-  padding-top: 9rem; }
-
-.pb-18 {
-  padding-bottom: 18rem; }
-
-.mb-9 {
-  margin-bottom: 9rem; }
-
-.border-cta {
-  padding: 5rem 1.5rem 0rem 1.5rem; }
-
-footer {
-  padding: 1rem 1.5rem 4rem; }
-
-.text-md-left span {
-  font-family: "font-maghreb-four";
-  font-size: 20px;
-  font-weight: 500;
-  color: #02374D; }
-.text-md-left a {
-  font-family: "font-maghreb-four";
-  font-size: 20px;
-  font-weight: 600;
-  color: #02374D; }
-
-.text-md-left button {
-  font-family: "font-maghreb-four";
-  font-size: 18px;
-  font-weight: 500;
-  color: #02374D;
-  border-radius: 20px;
+.border-hero-left {
+  border-width: 0.833px;
+  border-color: #dbdbdb;
+  border-style: solid;
   background-color: white;
-  border-color: #02374D;
-  border-width: 2px;
-  border-style: solid; }
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 15px; }
+
+.border-hero-center {
+  border-width: 0.833px;
+  border-color: #dbdbdb;
+  border-style: solid;
+  background-color: white;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px; }
+
+.border-hero-right {
+  border-width: 0.833px;
+  border-color: #dbdbdb;
+  border-style: solid;
+  background-color: white;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 0px; }
+
+.service-heros .card-title {
+  font-size: 24px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: #010C10;
+  font-weight: bold;
+  line-height: 0.875;
+  text-align: center; }
+
+.service-heros .card-text {
+  font-size: 15px;
+  font-family: "Hacen-Maghreb-Lt";
+  color: #4e4e4e;
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center; }
+
+.service-heros .card-subtitle {
+  font-size: 16px;
+  font-family: "Hacen-Maghreb-Lt";
+  color: #5433ff;
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center; }
+
+.service-heros .paragraph-subtitle, .list-tools {
+  font-size: 14px;
+  font-family: "Hacen-Maghreb-Lt";
+  color: #696969;
+  line-height: 1.2;
+  list-style: none;
+  padding-right: 0; }

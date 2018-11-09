@@ -1,36 +1,36 @@
 // Custom settings
 
-$oubihis-prussian: #02374D;
-$oubihis-primary: #5433FF;
-$oubihis-secondary: #293347;
-$oubihis-light: #010C10;
-$oubihis-text: #293347;
-$oubihis-base: #4E4E4E;
-$oubihis-body: #696969;
-$oubihis-tag-h1: #5433FF;
-$oubihis-paragraph: #696969;
+$color-prussian: #02374D;
+$color-primary: #5433FF;
+$color-secondary: #293347;
+$color-light: #010C10;
+$color-text: #293347;
+$color-base: #4E4E4E;
+$color-body: #696969;
+$color-tag-h1: #5433FF;
+$color-paragraph: #696969;
 
-
-$font-family-one: 'font-maghreb-one';
+$font-family-one: 'Maghribi-Assile';
 @font-face {
-  font-family: 'font-maghreb-one';
-  src: url('../fonts/font-maghreb-one.ttf');
+  font-family: 'Maghribi-Assile';
+  src: url('../font/Maghribi-Assile.ttf');
 }
 
-$font-family-tow: 'font-maghreb-tow';
+$font-family-tow: 'arabswell_1';
 @font-face {
-  font-family: 'font-maghreb-tow';
-  src: url('../fonts/font-maghreb-tow.ttf');
+  font-family: "arabswell_1";
+  src: url('../font/arabswell_1.ttf');
 }
 
-$font-family-three: 'font-maghreb-three';
+$font-family-three: 'Samir_Khouaja_Maghribi';
 @font-face {
-  font-family: 'font-maghreb-three';
-  src: url('../fonts/font-maghreb-three.ttf');
+  font-family: "Samir_Khouaja_Maghribi";
+  src: url('../font/Samir_Khouaja_Maghribi.ttf');
 }
 
-$font-family-four: 'font-maghreb-four';
+$font-family-four: 'Hacen-Maghreb-Lt';
 @font-face {
-  font-family: 'font-maghreb-four';
-  src: url('../fonts/font-maghreb-four.ttf');
+  font-family: "Hacen-Maghreb-Lt";
+  src: url('../font/Hacen-Maghreb-Lt.ttf');
 }
+
