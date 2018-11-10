@@ -27,7 +27,7 @@ body {
   border-color: $color-prussian;
   border-style: solid;
   border-radius: 15px;
-  width: 98.834px;
+/*  width: 98.834px;*/
   height: 32.834px;
   background-color: white;
 }
@@ -191,6 +191,7 @@ box-shadow: 0px 0px 13px 3px #5433ff33;
 .service-heros {
 	margin-top: -7rem;
 	padding-bottom: 1rem;
+  margin-bottom: 7rem;
 }
 
 .border-hero-left {
@@ -239,7 +240,7 @@ box-shadow: 0px 0px 13px 3px #5433ff33;
   font-size: 15px;
   font-family: $font-family-four;
   color: rgb(78, 78, 78);
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: justify;
   text-align-last: center;
 }
@@ -261,3 +262,154 @@ box-shadow: 0px 0px 13px 3px #5433ff33;
   list-style: none;
   padding-right: 0
 }
+
+.projects {
+  margin-bottom: 7rem;
+}
+
+.projects h2{
+font-size: 25px;
+font-family: $font-family-three;
+color: $color-secondary;
+font-weight: bold;
+line-height: 0.84;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.projects p{
+font-size: 18px;
+font-family: $font-family-one;
+color: $color-paragraph;
+line-height: 1.2;
+text-align: justify;
+text-align-last: center;
+margin-bottom: 5rem;
+}
+
+.projects a{
+  color: #007cdc;
+}
+
+.our-project img{
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 13px 3px #5433ff;
+-moz-box-shadow: 0px 0px 13px 3px #5433ff;
+box-shadow: 0px 0px 13px 3px #5433ff33;
+}
+
+.our-project {
+  margin-bottom: 5rem;
+}
+
+.our-project button span {
+  font-size: 18px;
+  font-family: $font-family-one;
+  color: $color-prussian;
+}
+
+.reference{
+margin-bottom: 7rem;
+}
+
+.reference h2{
+font-size: 25px;
+font-family: $font-family-three;
+color: $color-secondary;
+font-weight: bold;
+line-height: 0.84;
+text-align: center;
+margin-bottom: 2rem;
+margin-bottom: 5rem;
+}
+
+.open-git h2{
+  font-size: 25px;
+  font-family: $font-family-three;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.84;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.open-git p{
+  font-size: 18px;
+  font-family: $font-family-one;
+  color: #ffffff;
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center;
+  margin-bottom: 12rem;
+}
+
+.my-services .card {
+  border-width: 0.833px;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.my-services .card-subtitle  a{
+  font-size: 16px;
+  font-family: $font-family-four;
+  color: rgb(84, 51, 255);
+  line-height: 1.5;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.my-services p{
+  font-size: 15px;
+  font-family: $font-family-four;
+  color: rgb(78, 78, 78);
+  line-height: 1.5;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.my-services .dowpsd {
+  font-family: $font-family-four;
+  color: #007cdc;
+  font-weight: bold;
+}
+
+.my-services .card-text {
+    font-size: 15px;
+    font-family: "Hacen-Maghreb-Lt";
+    color: #4e4e4e;
+    line-height: 1.5;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.contact-main {
+  margin-bottom: 5rem;
+} 
+.contact-main .button-contact {
+  padding-right:4rem; 
+  padding-left:4rem;
+}
+
+.contact-main h2{
+font-size: 25px;
+font-family: $font-family-three;
+color: #293347;
+font-weight: bold;
+line-height: 0.84;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.contact-main p {
+font-size: 18px;
+font-family: $font-family-four;
+color: $color-paragraph;
+line-height: 1.2;
+text-align: justify;
+text-align-last: center;
+margin-bottom: 3rem;
+}
+

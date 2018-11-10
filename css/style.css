@@ -33,7 +33,7 @@ body {
   border-color: #02374D;
   border-style: solid;
   border-radius: 15px;
-  width: 98.834px;
+  /*  width: 98.834px;*/
   height: 32.834px;
   background-color: white; }
 
@@ -162,7 +162,8 @@ body {
 
 .service-heros {
   margin-top: -7rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  margin-bottom: 7rem; }
 
 .border-hero-left {
   border-width: 0.833px;
@@ -206,7 +207,7 @@ body {
   font-size: 15px;
   font-family: "Hacen-Maghreb-Lt";
   color: #4e4e4e;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: justify;
   text-align-last: center; }
 
@@ -225,3 +226,134 @@ body {
   line-height: 1.2;
   list-style: none;
   padding-right: 0; }
+
+.projects {
+  margin-bottom: 7rem; }
+
+.projects h2 {
+  font-size: 25px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: #293347;
+  font-weight: bold;
+  line-height: 0.84;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.projects p {
+  font-size: 18px;
+  font-family: "Maghribi-Assile";
+  color: #696969;
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center;
+  margin-bottom: 5rem; }
+
+.projects a {
+  color: #007cdc; }
+
+.our-project img {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 13px 3px #5433ff;
+  -moz-box-shadow: 0px 0px 13px 3px #5433ff;
+  box-shadow: 0px 0px 13px 3px #5433ff33; }
+
+.our-project {
+  margin-bottom: 5rem; }
+
+.our-project button span {
+  font-size: 18px;
+  font-family: "Maghribi-Assile";
+  color: #02374D; }
+
+.reference {
+  margin-bottom: 7rem; }
+
+.reference h2 {
+  font-size: 25px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: #293347;
+  font-weight: bold;
+  line-height: 0.84;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-bottom: 5rem; }
+
+.open-git h2 {
+  font-size: 25px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: white;
+  font-weight: bold;
+  line-height: 0.84;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem; }
+
+.open-git p {
+  font-size: 18px;
+  font-family: "Maghribi-Assile";
+  color: #ffffff;
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center;
+  margin-bottom: 12rem; }
+
+.my-services .card {
+  border-width: 0.833px;
+  border-color: #dbdbdb;
+  border-style: solid;
+  border-radius: 15px;
+  background-color: white; }
+
+.my-services .card-subtitle a {
+  font-size: 16px;
+  font-family: "Hacen-Maghreb-Lt";
+  color: #5433ff;
+  line-height: 1.5;
+  text-align: justify;
+  text-align-last: center; }
+
+.my-services p {
+  font-size: 15px;
+  font-family: "Hacen-Maghreb-Lt";
+  color: #4e4e4e;
+  line-height: 1.5;
+  text-align: justify;
+  text-align-last: center; }
+
+.my-services .dowpsd {
+  font-family: "Hacen-Maghreb-Lt";
+  color: #007cdc;
+  font-weight: bold; }
+
+.my-services .card-text {
+  font-size: 15px;
+  font-family: "Hacen-Maghreb-Lt";
+  color: #4e4e4e;
+  line-height: 1.5;
+  text-align: justify;
+  text-align-last: center; }
+
+.contact-main {
+  margin-bottom: 5rem; }
+
+.contact-main .button-contact {
+  padding-right: 4rem;
+  padding-left: 4rem; }
+
+.contact-main h2 {
+  font-size: 25px;
+  font-family: "Samir_Khouaja_Maghribi";
+  color: #293347;
+  font-weight: bold;
+  line-height: 0.84;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.contact-main p {
+  font-size: 18px;
+  font-family: "Hacen-Maghreb-Lt";
+  color: #696969;
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center;
+  margin-bottom: 3rem; }

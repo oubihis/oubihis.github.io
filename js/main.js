@@ -15,6 +15,7 @@ $(document).ready(function() {
   var imgPos = $('.me').position();
   
   $('i').css({
+    position: 'absolute',
     zIndex: '1',
     top: imgPos.top + 100,
     left: '47%'
