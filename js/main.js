@@ -11,7 +11,6 @@ $(document).ready(function() {
   var linkedinPos = $('#linkedin').position();
   var codePos = $('#code').position();
   var plusPos = $('#plus').position();
-  var mailPos = $('#mail').position();
   var imgPos = $('.me').position();
   
   $('i').css({

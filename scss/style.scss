@@ -387,6 +387,7 @@ margin-bottom: 5rem;
 
 .contact-main {
   margin-bottom: 5rem;
+  margin-bottom: 7rem;
 } 
 .contact-main .button-contact {
   padding-right:4rem; 
@@ -413,3 +414,152 @@ text-align-last: center;
 margin-bottom: 3rem;
 }
 
+.testimonials {
+  margin-bottom: 12rem;
+} 
+.testimonials h2{
+font-size: 25px;
+font-family: $font-family-three;
+color: #293347;
+font-weight: bold;
+line-height: 0.84;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.testimonials p {
+font-size: 18px;
+font-family: $font-family-four;
+color: $color-paragraph;
+line-height: 1.2;
+text-align: justify;
+text-align-last: center;
+margin-bottom: 1rem;
+}
+
+.testimonials .what-is-say{
+  font-size: 16px;
+  font-family: $font-family-three;
+  color: rgb(41, 51, 71);
+  line-height: 1.933;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.testimonials .name-ceo{
+  font-size: 16px;
+  font-family: $font-family-three;
+  color: rgb(41, 51, 71);
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.testimonials .name-company {
+  font-size: 14px;
+  font-family: $font-family-three;
+  color: rgb(105, 105, 105);
+  text-align: center;
+}
+
+.contact-main h2 {
+  line-height: 1.933;
+}
+
+.hero .title h1 {
+  line-height: 1.233;
+}
+
+.hero .title p {
+  line-height: 1.433;
+}
+
+.reference h2 {
+  line-height: 1.433;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero .title h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo br {
+    display: none;
+  }
+}
+
+.border-send-me-footer{
+  border-width: 2.083px;
+  border-color: $color-primary;
+  border-style: solid;
+  border-radius: 15px;
+  height: 32.834px;
+  background-color: $color-prussian;
+}
+
+.text-send-me-footer{
+  font-size: 18px;
+  font-family: $font-family-one;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.bg-cta {
+  background-color: #02374d;
+}
+
+.call-to-action .container{
+  border-radius: 12px;
+  margin-top: -120px;
+  color:#ffffff;
+}
+
+.cader-box {
+  border-radius: 12px;
+  padding: 3.5rem 2rem;
+  box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.13), 1px 1px 1px 1px #02374d66;
+}
+
+.call-to-action .parag-box{
+  font-size: 18px;
+  font-family: $font-family-one;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.call-to-action .title-box{
+  font-size: 22px;
+  font-family: $font-family-tow;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+    text-align: justify;
+  text-align-last: center;
+}
+
+.bio{
+  font-size: 19px;
+  font-family: $font-family-tow;
+  color: rgb(255, 255, 255);
+  line-height: 1.632;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.social-icons .icon {
+  color: rgb(255, 255, 255);
+  font-size: 22px
+}
+
+.copyright {
+  font-size: 19px;
+  font-family: $font-family-tow;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.632;
+  text-align: center;
+}
